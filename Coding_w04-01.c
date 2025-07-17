@@ -1,4 +1,4 @@
-#include <stdio.h>  // เรียกใช้ Libary
+#include <stdio.h>  // เรียกใช้ Library
 
 int main() {                         // int คือ Keyword, main คือ Identifier, () คือ Operator
     printf("Hello,\n");              // printf คือ Identifier, "Hello,\n" คือ Constant, () คือ Operator, ; คือ Operator
