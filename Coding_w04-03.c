@@ -1,7 +1,18 @@
-#include <stdio.h>  // Preprocessor directive (เรียกใช้ Libary)
+#include <stdio.h> 
 
-int main() {                         // Keyword: int, main
-    printf("Hello,\n");              // Function call: printf (Identifier), \n = New line
-    printf("C Tokens!\n");           // Constant string: "C Tokens!"
-    return 0;                        // Keyword: return, Constant: 0
+int main() {             
+// char คือ ใช้เก็บตัวอักษรเเรกของชื่อ            
+    char nameInitial = 'C';
+// int คือ ใช้เก็บตัวเลขจำนวนเต็ม อายุ
+    int age = 18;
+// float คือ ใช้เก็บตัวเลขที่เป็ยทศนิยม น้ำหนัก
+    float weight = 80.5;
+// char[] คือ ใช้เก็บค่าตัวแปรที่เป็นคำ เพศ
+    char gender[] = "Male";
+
+    printf("nameInitial: %c\n", nameInitial);
+    printf("age: %d\n", age);
+    printf("weight: %.1f\n", weight);
+    printf("gender: %s\n", gender);
+    return 0;
 }

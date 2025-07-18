@@ -1,7 +1,14 @@
-#include <stdio.h>  // Preprocessor directive (เรียกใช้ Libary)
+#include <stdio.h>  
 
-int main() {                         // Keyword: int, main
-    printf("Hello,\n");              // Function call: printf (Identifier), \n = New line
-    printf("C Tokens!\n");           // Constant string: "C Tokens!"
-    return 0;                        // Keyword: return, Constant: 0
+int main() {                    
+    int iscore = 90.5;
+    printf("score: %d\n", iscore);  
+    
+    float fscore = 90.5;
+    printf("score: %.1f\n", fscore);
+    
+    return 0;                       
 }
+// ผลลัพธ์ที่ได้ต่างกันโดยที่ int iscore = 90.5 จะแสดงผลเป็น 90 ส่งน float fscore = 90.5 จะแสดงผลเป็น 90.5
+// ดังนั้นจึงควรเลือกใช้ Data Type ให้ถูกต้องตามข้อมูลที่เราต้องการจะจัดเก็บเพราะถ้าเลือกผิดจะทำให้ค่าที่เราต้องการจะแสดงผลผิดพลาด
+// สรุปคือ int ใช้เก็บค่าตัวเลขจำนวนเต็มเเละจะปัดทศนิยมทิ้งไป ส่วน float จะใช้ในการเก็บค่าตัวเลขทศนิยมด้วย

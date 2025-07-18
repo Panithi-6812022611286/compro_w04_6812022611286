@@ -1,7 +1,7 @@
-#include <stdio.h>  // Preprocessor directive (เรียกใช้ Libary)
+#include <stdio.h>  // ไม่มี # และ < > ที่ใช้ในการเรียก Library
 
-int main() {                         // Keyword: int, main
-    printf("Hello,\n");              // Function call: printf (Identifier), \n = New line
-    printf("C Tokens!\n");           // Constant string: "C Tokens!"
-    return 0;                        // Keyword: return, Constant: 0
+int main() {                         
+    int a = 10;// ไม่มีเครื่องหมาย ; 
+    printf("a = %d\n", a);// ไม่มีเครื่องหมาย ; เเละ \n
+    return 0;// ไม่มีเครื่องหมาย ; 
 }
